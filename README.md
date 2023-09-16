@@ -230,3 +230,7 @@ This image is available from 3 different registries. Choose whichever you want:
 - [docker.io/nathanvaughn/webtrees](https://hub.docker.com/r/nathanvaughn/webtrees)
 - [ghcr.io/nathanvaughn/webtrees](https://github.com/users/nathanvaughn/packages/container/package/webtrees)
 - [cr.nathanv.app/library/webtrees](https://cr.nathanv.app/harbor/projects/1/repositories/webtrees) (experimental)
+
+## Module development
+
+Uncomment line 33, and create the folders: `~/webtrees/modules`. You can now simply copy and reload your module there while developing.

@@ -30,6 +30,7 @@ services:
       # - ~/certs:/certs/
       - app_data:/var/www/webtrees/data/
       - app_media:/var/www/webtrees/media/
+      # - ~/webtrees/modules:/var/www/webtrees/modules_v4
 
   db:
     environment:
